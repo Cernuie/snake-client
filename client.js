@@ -1,6 +1,6 @@
 const net = require('net');
 
-const connect = function() {
+const connect = function(IP, PORT) {
   const conn = net.createConnection({ 
     host: '135.23.222.131',
     port: 50542
